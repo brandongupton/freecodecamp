@@ -10,8 +10,8 @@ function replace(str, before, after) {
  return str.replace(new RegExp(before, 'i'), replaceWithCase);
 }
 
-replace("A quick brown fox jumped over the lazy dog", "jumped", "leaped");
-replace("He is Sleeping on the couch", "Sleeping", "sitting");
-replace("This has a spellngi error", "spellngi", "spelling");
-replace("His name is Tom", "Tom", "john");
-replace("Let us get back to more Coding", "Coding", "bonfires");
+console.log(replace("A quick brown fox jumped over the lazy dog", "jumped", "leaped"));
+console.log(replace("He is Sleeping on the couch", "Sleeping", "sitting"));
+console.log(replace("This has a spellngi error", "spellngi", "spelling"));
+console.log(replace("His name is Tom", "Tom", "john"));
+console.log(replace("Let us get back to more Coding", "coding", "bonfires"));
